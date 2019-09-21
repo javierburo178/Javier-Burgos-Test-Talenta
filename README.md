@@ -12,7 +12,8 @@ Things you may want to cover:
 * Configuration
 
 * Database creation
-
+rake db:create
+rake db:migrate
 * Database initialization
 
 * How to run the test suite
@@ -20,5 +21,9 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
+To test just deploy a server in rails 
+rails s in localhost:3000
+and deploy webpack
+./bin/webpack-dev-server
 
 * ...
